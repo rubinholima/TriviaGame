@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystal Collector Game</title>
+    <title>Trivial Trivia Game</title>
 
     <!-- reset file and style.css   -->
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -23,16 +23,22 @@
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
 
-    <!-- Javascript file game.js -->
-    <script src="./assets/javascript/game.js"></script>
+    <!-- Javascript file app.js -->
+    <script src="./assets/javascript/app.js"></script>
 
 
 </head>
 
 <body>
     <div class="container">
-        <h1>Tottaly Trivial Trivia!</h1>
-        
+        <div class="jumbotron">
+            <button id="start_button">Start Game</button>
+            <div id="timeRe"></div>
+            <div id="question"></div>
+            <div id="choices" class="text-center" ></div>
+            <div class="correct"></div>
+            <div class="incorrect"></div>
+        </div>
     </div>
 </body>
 
